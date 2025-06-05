@@ -16,9 +16,4 @@ ligth_button.addEventListener("click", function () {
 
   turn_off.classList.toggle("d-none");
   turn_on.classList.toggle("d-none");
-  if (ligth_button.innerHTML === "Accendi") {
-    ligth_button.innerHTML = "Spegni";
-  } else {
-    ligth_button.innerHTML = "Accendi";
-  }
 });
